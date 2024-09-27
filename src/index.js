@@ -1,2 +1,2 @@
-import './js/app';
+const app = require('./js/app')
 

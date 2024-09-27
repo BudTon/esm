@@ -1,6 +1,2 @@
-class Character {
-}
-
-const defaultCharacter = new Character();
-
-export default defaultCharacter;
+exports.defaultCharacter = class Character {
+};

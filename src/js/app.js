@@ -1,4 +1,9 @@
-import Game, {GameSavingData, readGameSaving as loadGame, writeGameSaving as saveGame} from './game.js';
+const app = require('./game.js')
 
-const game = Game;
-game.start();
+const { defaultGame, GameSavingData, loadGame, saveGame } = app;
+
+defaultGame.start();
+
+console.log(GameSavingData);
+console.log(loadGame);
+console.log(saveGame);
